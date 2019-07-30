@@ -24,3 +24,8 @@ npm i @nguniversal/express-engine -D
 ### Tutorial link
 
 https://www.youtube.com/watch?v=VS0zsXvDJ08
+
+
+### firebase project name
+
+ivy-fb-ssr
