@@ -1,0 +1,110 @@
+[debug] [2019-07-29T20:00:09.416Z] ----------------------------------------------------------------------
+[debug] [2019-07-29T20:00:09.419Z] Command:       /home/jaichaturvedi/.nvm/versions/node/v8.11.1/bin/node /home/jaichaturvedi/.nvm/versions/node/v8.11.1/bin/firebase serve
+[debug] [2019-07-29T20:00:09.419Z] CLI Version:   7.1.1
+[debug] [2019-07-29T20:00:09.419Z] Platform:      linux
+[debug] [2019-07-29T20:00:09.419Z] Node Version:  v8.11.1
+[debug] [2019-07-29T20:00:09.419Z] Time:          Tue Jul 30 2019 01:30:09 GMT+0530 (IST)
+[debug] [2019-07-29T20:00:09.419Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-29T20:00:09.424Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-29T20:00:09.425Z] > authorizing via signed-in user
+[debug] [2019-07-29T20:00:09.425Z] [iam] checking project ivy-fb-ssr for permissions ["firebase.projects.get"]
+[debug] [2019-07-29T20:00:09.426Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ivy-fb-ssr:testIamPermissions  
+
+[debug] [2019-07-29T20:00:11.131Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-29T20:00:11.134Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ivy-fb-ssr  
+ 
+[debug] [2019-07-29T20:00:11.846Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr'...
+[info] 
+[debug] [2019-07-29T20:00:11.860Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ivy-fb-ssr/webApps/-/config  
+ 
+[info] ✔  functions: Using node@8 from host.
+[debug] [2019-07-29T20:00:11.886Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ivy-fb-ssr/adminSdkConfig  
+ 
+[debug] [2019-07-29T20:00:12.327Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-29T20:00:12.358Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/browser
+[info] ✔  hosting: Local server: http://localhost:5000
+[info] ✔  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions" for Cloud Functions...
+[debug] [2019-07-29T20:00:12.842Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions","node_version":"8.11.1"}
+[debug] [2019-07-29T20:00:12.843Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-07-29T20:00:12.848Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-29T20:00:12.851Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-29T20:00:12.852Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-29T20:00:12.882Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-29T20:00:12.908Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}}
+[info] i  functions: HTTP trigger initialized at http://localhost:5001/ivy-fb-ssr/us-central1/ssr
+[info] >  (node:51362) ExperimentalWarning: The http2 module is an experimental API.
+[info] >  Node Express server listening on http://localhost:4000
+[debug] [2019-07-29T20:00:37.124Z] Accepted request GET /ivy-fb-ssr/us-central1/ssr --> ssr
+[debug] [2019-07-29T20:00:38.072Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-29T20:00:38.074Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-07-29T20:00:38.087Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-29T20:00:38.087Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-29T20:00:38.089Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-29T20:00:38.196Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-29T20:00:38.273Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-07-29T20:00:38.795Z] [runtime-status] Trigger "ssr" has been found, beginning invocation! {}
+[debug] [2019-07-29T20:00:38.795Z] [runtime-status]  {"httpsTrigger":{},"name":"ssr","entryPoint":"ssr"}
+[debug] [2019-07-29T20:00:38.795Z] [runtime-status] Running ssr in mode HTTPS {}
+[debug] [2019-07-29T20:00:38.797Z] [default-admin-app-used]  {"databaseURL":"https://ivy-fb-ssr.firebaseio.com","storageBucket":"ivy-fb-ssr.appspot.com","projectId":"ivy-fb-ssr","credential":{}}
+[debug] [2019-07-29T20:00:38.797Z] [runtime-status] Intializing default app. {"databaseURL":"https://ivy-fb-ssr.firebaseio.com","storageBucket":"ivy-fb-ssr.appspot.com","projectId":"ivy-fb-ssr","credential":{}}
+[info] i  Your code does not appear to initialize the 'firebase-admin' module, so we've done it automatically.
+   - Learn more: https://firebase.google.com/docs/admin/setup
+[info] >  (node:51465) ExperimentalWarning: The http2 module is an experimental API.
+[info] >  Node Express server listening on http://localhost:4000
+[debug] [2019-07-29T20:00:38.812Z] {"socketPath":"/tmp/firebase_emulator_invocation_51465.sock"}
+[debug] [2019-07-29T20:00:38.817Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_51465.sock"}
+[debug] [2019-07-29T20:00:38.847Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-07-29T20:00:38.853Z] [runtime-status] Ephemeral server survived. {}
+[warn] ⚠  TypeError: handler is not a function
+    at cloudFunction (/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/providers/https.js:49:9)
+    at Run (/home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:548:20)
+    at /home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:522:19
+    at Generator.next (<anonymous>)
+    at /home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new ZoneAwarePromise (/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/dist/server.js:5960:29)
+    at __awaiter (/home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at Run (/home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:515:12)
+    at /home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:547:15
+    at Generator.next (<anonymous>)
+[warn] ⚠  Your function was killed because it raised an unhandled error.
+[info] [hosting] Rewriting /about to http://localhost:5001/ivy-fb-ssr/us-central1/ssr for local Function ssr
+[debug] [2019-07-29T20:00:48.649Z] Accepted request GET /ivy-fb-ssr/us-central1/ssr/about --> ssr
+[debug] [2019-07-29T20:00:49.044Z] [runtime-status] Functions runtime initialized. {"cwd":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions","node_version":"8.11.1"}
+[info] i  functions: Beginning execution of "ssr"
+[debug] [2019-07-29T20:00:49.046Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[debug] [2019-07-29T20:00:49.054Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-29T20:00:49.054Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-29T20:00:49.054Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.2.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-07-29T20:00:49.113Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-07-29T20:00:49.160Z] [runtime-status] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.3.0","resolution":"/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-admin/lib/index.js"}}
+[debug] [2019-07-29T20:00:49.635Z] [runtime-status] Trigger "ssr" has been found, beginning invocation! {}
+[debug] [2019-07-29T20:00:49.638Z] [runtime-status]  {"httpsTrigger":{},"name":"ssr","entryPoint":"ssr"}
+[debug] [2019-07-29T20:00:49.642Z] [runtime-status] Running ssr in mode HTTPS {}
+[debug] [2019-07-29T20:00:49.645Z] [default-admin-app-used]  {"databaseURL":"https://ivy-fb-ssr.firebaseio.com","storageBucket":"ivy-fb-ssr.appspot.com","projectId":"ivy-fb-ssr","credential":{}}
+[debug] [2019-07-29T20:00:49.645Z] [runtime-status] Intializing default app. {"databaseURL":"https://ivy-fb-ssr.firebaseio.com","storageBucket":"ivy-fb-ssr.appspot.com","projectId":"ivy-fb-ssr","credential":{}}
+[info] i  Your code does not appear to initialize the 'firebase-admin' module, so we've done it automatically.
+   - Learn more: https://firebase.google.com/docs/admin/setup
+[info] >  (node:51503) ExperimentalWarning: The http2 module is an experimental API.
+[info] >  Node Express server listening on http://localhost:4000
+[debug] [2019-07-29T20:00:49.658Z] {"socketPath":"/tmp/firebase_emulator_invocation_51503.sock"}
+[debug] [2019-07-29T20:00:49.659Z] [functions] Runtime ready! Sending request! {"socketPath":"/tmp/firebase_emulator_invocation_51503.sock"}
+[debug] [2019-07-29T20:00:49.677Z] [runtime-status] Ephemeral server used! {}
+[debug] [2019-07-29T20:00:49.680Z] [runtime-status] Ephemeral server survived. {}
+[warn] ⚠  TypeError: handler is not a function
+    at cloudFunction (/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/node_modules/firebase-functions/lib/providers/https.js:49:9)
+    at Run (/home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:548:20)
+    at /home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:522:19
+    at Generator.next (<anonymous>)
+    at /home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:7:71
+    at new ZoneAwarePromise (/home/jaichaturvedi/jai/poc/ucsn/ivy-firebase/ivy-fb-ssr/functions/dist/server.js:5960:29)
+    at __awaiter (/home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:3:12)
+    at Run (/home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:515:12)
+    at /home/jaichaturvedi/.nvm/versions/node/v8.11.1/lib/node_modules/firebase-tools/lib/emulator/functionsEmulatorRuntime.js:547:15
+    at Generator.next (<anonymous>)
+[warn] ⚠  Your function was killed because it raised an unhandled error.

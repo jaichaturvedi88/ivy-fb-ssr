@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "ivy-fb-ssr",
+    "test": "ivy-fb-ssr"
+  }
+}

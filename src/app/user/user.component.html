@@ -1,0 +1,10 @@
+<h2>User List</h2>
+
+<p *ngFor="let user of users$ | async">
+    <!-- <a (click)="displayUserDetails(user.id)" [routerLink]="['/users', user.id]">{{ user | json}}</a> -->
+    <br> name : {{user.name }}
+    <br> username : {{user.username }}
+    <br> <a [routerLink]="['/users', user.id]">More Details</a>
+    <br>
+
+</p>
